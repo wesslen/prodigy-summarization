@@ -1,0 +1,2 @@
+prodigy==1.14.12
+ipython==8.18.1
