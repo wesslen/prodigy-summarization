@@ -1,0 +1,4 @@
+============ Current winner: [tldr.v2.jinja2 + config-openai.cfg] ============
+
+comparison                                                                    prob   trials
+[tldr.v2.jinja2 + config-openai.cfg] > [tldr.v5.jinja2 + config-openai.cfg]   0.61       13
