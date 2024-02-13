@@ -2,12 +2,5 @@ install:
 	python -m pip install --upgrade pip
 	python -m pip install prodigy -f https://$PRODIGY_KEY@download.prodi.gy
 
-tourney:
-	python -m prodigy ab.llm.tournament
-
-config:
-	spacy debug config config/config-tldr.cfg
-	python -m spacy init fill-config config/config-tldr.cfg config/config-tldr.cfg
-
-config-sum:
-	python -m spacy init fill-config config/config-summarization.cfg config/config-summarization.cfg
+prodigy:
+	python -m prodigy ab.llm.tournament bbb-abstract-sum data/2024-01-03.jsonl templates/abstract config --display-template display.jinja2 --no-meta
